@@ -10,7 +10,10 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            
+            Console.WriteLine("enter temperature in centigrade");
+            int c = Convert.ToInt32(Console.ReadLine());
+            double f = 1.8 * c + 32;
+            Console.WriteLine("Fahrenheit is{0}", f);   
         }
     }
 }
